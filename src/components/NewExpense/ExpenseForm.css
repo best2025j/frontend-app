@@ -1,0 +1,77 @@
+.new-expense__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    background-color: #c3b4f3;
+    border-radius: 12px;
+    padding: 1rem;
+    display: flex;
+    box-shadow: 0  4px 8px #050505;
+    
+     
+}
+
+
+.new-expense__controls label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.new-expense__controls input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 7px;
+    width: 20rem;
+    font-weight: 700;
+
+}
+
+
+.new-expense__action {
+    margin-left: 38rem;
+
+}  
+
+
+.new-expense__action button {
+    color: #ece7e7;
+    background-color: #200b64;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    float: right;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+
+.new-expense__action button:active {
+    background-color: #000980;
+}
+
+
+
+@media (min-width: 550px) {
+    .new-expense__controls {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        flex: 1;
+        margin: 0 1rem;
+
+    }
+
+
+   
+    .new-expense__action button {
+        padding: 0.5rem 1.5rem;
+        height: 48px;
+        width: max-content;
+
+
+    }
+
+ }
